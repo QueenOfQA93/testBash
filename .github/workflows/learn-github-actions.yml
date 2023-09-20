@@ -4,4 +4,4 @@ on: [push]
 jobs:
   testBash:
     steps:
-      -run: console.log("Hello TestBash!")
+      -run: echo "Hello TestBash!"
