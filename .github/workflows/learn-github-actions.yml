@@ -14,6 +14,6 @@ jobs:
         with:
           node-version: '18'
       - run: cd src/webapp/api
-      - run: ls -al
+      - run: pwd
       - run: npm install
       - run: npm run test
