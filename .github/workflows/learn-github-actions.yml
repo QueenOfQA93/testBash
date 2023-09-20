@@ -4,4 +4,4 @@ on: [push]
 jobs:
   testBash:
     steps:
-      -run: echo "Hello TestBash!"
+      - run: echo "Hello TestBash!"
