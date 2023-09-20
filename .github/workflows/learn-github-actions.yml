@@ -9,7 +9,7 @@ jobs:
   runUnitTest:
     runs-on: ubuntu-latest
     steps:
-      - run: cd testBash
+      - run: cd ...
       - run: cd src/webapp/api
       - run: npm install
       - run: npm run test
