@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello TestBash!"
-jobs:
   runUnitTest:
     runs-on: ubuntu-latest
     steps:
