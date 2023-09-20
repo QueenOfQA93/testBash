@@ -13,6 +13,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - run: cd .src/webapp/api
+      - run: cd src/webapp/api
       - run: npm ci
       - run: npm run test
